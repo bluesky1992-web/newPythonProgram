@@ -1,10 +1,26 @@
-item = input('What item would you like to buy? ')
+# friends = 10
 
-price = float(input('what is the price ? :'))
+# friends = friends + 1
+# friends += 1
+# friends = friends - 2
+# friends -= 2
+# friends = friends * 3
+# friends *= 3
+# friends = friends / 2
+# friends /= 2
+# friends = friends ** 2
+# friends **= 2
 
-quantity = int(input('How many would you like?: '))
+#remainder = friends % 2
 
-total = price * quantity
 
-print(f'You have bought {quantity} x {item}/s')
-print(f'Your total is: ${total}')
+#print(remainder)  # Output: 1
+
+
+x = 3.14
+y = 4
+z = 5
+
+result = round(x)
+
+print(result)
